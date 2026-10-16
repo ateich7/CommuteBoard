@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05948F0A34080E6076C12FD0 /* BusTimeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DBB4A31E2F0406EF0AC169 /* BusTimeService.swift */; };
+		08FD1AA6EBE8B62FAEA78530 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406000B9958BE64390A85233 /* NetworkMonitor.swift */; };
+		10C8F79ABE99BB26E44E1BD8 /* ArrivalsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014F01FFA5FB18EDD25E4935 /* ArrivalsDetailView.swift */; };
+		13A800E3B88AB2A2971DD1BF /* Arrival.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D9222B2FCF0D0D792EB926 /* Arrival.swift */; };
+		14DA9974FF4110DCA914448A /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECAF2900E34876FA433CAAA /* Config.swift */; };
+		19BFF906E7241EB8444610D6 /* CommuteStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A224D02871B68DD6B793EF0 /* CommuteStore.swift */; };
+		1DA9A663DD22B17399445C86 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C79D9FD730A07607FC06165 /* Components.swift */; };
+		34F5527D50F1760CCF2566ED /* HTTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910581BA85DAFFCDA92D4BA2 /* HTTP.swift */; };
+		46E9435B346E3FF55870511E /* SubwayStations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CC3A07B279B043E624879C /* SubwayStations.swift */; };
+		5C3816502C8DA318D799ECC5 /* ProtobufReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C7FC032812F239E404F4A8 /* ProtobufReader.swift */; };
+		69AAA00E8528B9BFED181389 /* CommuteBoardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14397D1BE8F4ED0F6C66B10F /* CommuteBoardApp.swift */; };
+		6BDA4BDADB492DBDABADCD63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A3DBEF3159AE3B2B0BAED10 /* Assets.xcassets */; };
+		7093B544BE87256CB0A92783 /* BikeDock.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCB74F75371D7D119129FAB /* BikeDock.swift */; };
+		8CE371CACA8DCC91E659A8CE /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636D89681029C75DF36DB41B /* SettingsView.swift */; };
+		A2C5E582010E6BFF989241B1 /* CitiBikeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88488849B9AB70B7C6B778C /* CitiBikeService.swift */; };
+		ADD0B08483CF895D317FF65E /* ShuttleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8656FEF2B3CFFD8B4CC81536 /* ShuttleService.swift */; };
+		BB0EB10F252A40DF96E7D0C2 /* CommuteSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B679F0B0F438E255FE0CA6A /* CommuteSnapshot.swift */; };
+		BC5078FBA1FDE37E36408FB9 /* SnapshotCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = C703E975D01146C0E9D27EC1 /* SnapshotCache.swift */; };
+		DA98353CD1DCC860A4B206A7 /* SubwayService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA5BFF8EE91C3D8D1E895FA /* SubwayService.swift */; };
+		E1CFC0C413E02F47BFA6F0F9 /* DockDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6C9E42B827648607B3F24C /* DockDetailView.swift */; };
+		E3574277F1D4EF916CB4F06D /* PlaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389AEB21DFE365890821A227 /* PlaceView.swift */; };
+		E464A3BEE2C9D834D67AD465 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8457DA3918587EB4C0A13409 /* RootView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		014F01FFA5FB18EDD25E4935 /* ArrivalsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrivalsDetailView.swift; sourceTree = "<group>"; };
+		14397D1BE8F4ED0F6C66B10F /* CommuteBoardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommuteBoardApp.swift; sourceTree = "<group>"; };
+		389AEB21DFE365890821A227 /* PlaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceView.swift; sourceTree = "<group>"; };
+		3B679F0B0F438E255FE0CA6A /* CommuteSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommuteSnapshot.swift; sourceTree = "<group>"; };
+		406000B9958BE64390A85233 /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		53CC3A07B279B043E624879C /* SubwayStations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubwayStations.swift; sourceTree = "<group>"; };
+		5A224D02871B68DD6B793EF0 /* CommuteStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommuteStore.swift; sourceTree = "<group>"; };
+		636D89681029C75DF36DB41B /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		66C7FC032812F239E404F4A8 /* ProtobufReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtobufReader.swift; sourceTree = "<group>"; };
+		6A3DBEF3159AE3B2B0BAED10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8457DA3918587EB4C0A13409 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		8656FEF2B3CFFD8B4CC81536 /* ShuttleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuttleService.swift; sourceTree = "<group>"; };
+		90DBB4A31E2F0406EF0AC169 /* BusTimeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusTimeService.swift; sourceTree = "<group>"; };
+		910581BA85DAFFCDA92D4BA2 /* HTTP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTP.swift; sourceTree = "<group>"; };
+		9C79D9FD730A07607FC06165 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		9E6C9E42B827648607B3F24C /* DockDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DockDetailView.swift; sourceTree = "<group>"; };
+		AECAF2900E34876FA433CAAA /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		B54066C940A9265B5C533C4B /* CommuteBoard.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = CommuteBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C703E975D01146C0E9D27EC1 /* SnapshotCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotCache.swift; sourceTree = "<group>"; };
+		C8D9222B2FCF0D0D792EB926 /* Arrival.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arrival.swift; sourceTree = "<group>"; };
+		CCA5BFF8EE91C3D8D1E895FA /* SubwayService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubwayService.swift; sourceTree = "<group>"; };
+		E88488849B9AB70B7C6B778C /* CitiBikeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiBikeService.swift; sourceTree = "<group>"; };
+		FBCB74F75371D7D119129FAB /* BikeDock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeDock.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1C2B58198F293185E87A3BCD /* CommuteBoard */ = {
+			isa = PBXGroup;
+			children = (
+				6A3DBEF3159AE3B2B0BAED10 /* Assets.xcassets */,
+				AECAF2900E34876FA433CAAA /* Config.swift */,
+				A53C5B2FE53648691168B90B /* App */,
+				E979E298BC048379EB39DD57 /* Models */,
+				F2EA88D24F30DA14C94C3819 /* Services */,
+				FF74E8A012D96688F59722DD /* Store */,
+				9F6F476C02D8907BF7DBC660 /* Views */,
+			);
+			path = CommuteBoard;
+			sourceTree = "<group>";
+		};
+		4247925CE59952BCD117AFF9 = {
+			isa = PBXGroup;
+			children = (
+				1C2B58198F293185E87A3BCD /* CommuteBoard */,
+				E60814EEE24FCB238C0AFD84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F6F476C02D8907BF7DBC660 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				014F01FFA5FB18EDD25E4935 /* ArrivalsDetailView.swift */,
+				9C79D9FD730A07607FC06165 /* Components.swift */,
+				9E6C9E42B827648607B3F24C /* DockDetailView.swift */,
+				389AEB21DFE365890821A227 /* PlaceView.swift */,
+				8457DA3918587EB4C0A13409 /* RootView.swift */,
+				636D89681029C75DF36DB41B /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A53C5B2FE53648691168B90B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				14397D1BE8F4ED0F6C66B10F /* CommuteBoardApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E60814EEE24FCB238C0AFD84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B54066C940A9265B5C533C4B /* CommuteBoard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E979E298BC048379EB39DD57 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C8D9222B2FCF0D0D792EB926 /* Arrival.swift */,
+				FBCB74F75371D7D119129FAB /* BikeDock.swift */,
+				3B679F0B0F438E255FE0CA6A /* CommuteSnapshot.swift */,
+				53CC3A07B279B043E624879C /* SubwayStations.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F2EA88D24F30DA14C94C3819 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				90DBB4A31E2F0406EF0AC169 /* BusTimeService.swift */,
+				E88488849B9AB70B7C6B778C /* CitiBikeService.swift */,
+				910581BA85DAFFCDA92D4BA2 /* HTTP.swift */,
+				406000B9958BE64390A85233 /* NetworkMonitor.swift */,
+				66C7FC032812F239E404F4A8 /* ProtobufReader.swift */,
+				8656FEF2B3CFFD8B4CC81536 /* ShuttleService.swift */,
+				C703E975D01146C0E9D27EC1 /* SnapshotCache.swift */,
+				CCA5BFF8EE91C3D8D1E895FA /* SubwayService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FF74E8A012D96688F59722DD /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				5A224D02871B68DD6B793EF0 /* CommuteStore.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49BB8DEDF433BA27A4D82C4C /* CommuteBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBE4B35DA090F1C8714AD8E1 /* Build configuration list for PBXNativeTarget "CommuteBoard" */;
+			buildPhases = (
+				A81FADE18446AD25187C0F88 /* Sources */,
+				F069EC427E528E66609BBD1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CommuteBoard;
+			packageProductDependencies = (
+			);
+			productName = CommuteBoard;
+			productReference = B54066C940A9265B5C533C4B /* CommuteBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C75B00CA0382426FD1E41162 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					49BB8DEDF433BA27A4D82C4C = {
+						DevelopmentTeam = H3Y49D8LHK;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CBBF5876100CD8648E8F5318 /* Build configuration list for PBXProject "CommuteBoard" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 4247925CE59952BCD117AFF9;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E60814EEE24FCB238C0AFD84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49BB8DEDF433BA27A4D82C4C /* CommuteBoard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F069EC427E528E66609BBD1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BDA4BDADB492DBDABADCD63 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A81FADE18446AD25187C0F88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13A800E3B88AB2A2971DD1BF /* Arrival.swift in Sources */,
+				10C8F79ABE99BB26E44E1BD8 /* ArrivalsDetailView.swift in Sources */,
+				7093B544BE87256CB0A92783 /* BikeDock.swift in Sources */,
+				05948F0A34080E6076C12FD0 /* BusTimeService.swift in Sources */,
+				A2C5E582010E6BFF989241B1 /* CitiBikeService.swift in Sources */,
+				69AAA00E8528B9BFED181389 /* CommuteBoardApp.swift in Sources */,
+				BB0EB10F252A40DF96E7D0C2 /* CommuteSnapshot.swift in Sources */,
+				19BFF906E7241EB8444610D6 /* CommuteStore.swift in Sources */,
+				1DA9A663DD22B17399445C86 /* Components.swift in Sources */,
+				14DA9974FF4110DCA914448A /* Config.swift in Sources */,
+				E1CFC0C413E02F47BFA6F0F9 /* DockDetailView.swift in Sources */,
+				34F5527D50F1760CCF2566ED /* HTTP.swift in Sources */,
+				08FD1AA6EBE8B62FAEA78530 /* NetworkMonitor.swift in Sources */,
+				E3574277F1D4EF916CB4F06D /* PlaceView.swift in Sources */,
+				5C3816502C8DA318D799ECC5 /* ProtobufReader.swift in Sources */,
+				E464A3BEE2C9D834D67AD465 /* RootView.swift in Sources */,
+				8CE371CACA8DCC91E659A8CE /* SettingsView.swift in Sources */,
+				ADD0B08483CF895D317FF65E /* ShuttleService.swift in Sources */,
+				BC5078FBA1FDE37E36408FB9 /* SnapshotCache.swift in Sources */,
+				DA98353CD1DCC860A4B206A7 /* SubwayService.swift in Sources */,
+				46E9435B346E3FF55870511E /* SubwayStations.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0BF0F8EDC8EC504BBFE60EFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H3Y49D8LHK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Commute;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.columbia.CommuteBoard;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9C7B38C54E2853690B7CB4AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H3Y49D8LHK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Commute;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.columbia.CommuteBoard;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A47E36B37264B4B1A843CF96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FA59F4B0AF340E5C37E2F1F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBBF5876100CD8648E8F5318 /* Build configuration list for PBXProject "CommuteBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA59F4B0AF340E5C37E2F1F7 /* Debug */,
+				A47E36B37264B4B1A843CF96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DBE4B35DA090F1C8714AD8E1 /* Build configuration list for PBXNativeTarget "CommuteBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BF0F8EDC8EC504BBFE60EFB /* Debug */,
+				9C7B38C54E2853690B7CB4AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C75B00CA0382426FD1E41162 /* Project object */;
+}
